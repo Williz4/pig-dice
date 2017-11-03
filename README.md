@@ -11,7 +11,9 @@ A simple game where there are two players that get to roll the dice in turns and
 ## Setup/Installation Requirements
 
 * Run the page at ()
-* Enter the first player  
+* Enter the First Player Name
+* Enter the Second Player Name
+* Start Playing the game by rolling the dice 
 
 
 ## Known Bugs
