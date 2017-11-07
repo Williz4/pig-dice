@@ -39,8 +39,6 @@
 			<hr>
 
 			<article id="intro">
-
-
 			
 				<p>"Pig Dice is a simple dice game played between two people. Each turn, a player repeatedly rolls a die until
 				either a 1 is rolled (which makes the player lose their score that turn) or the player decides to "hold"
@@ -67,6 +65,44 @@
   	</form>
 
 
+		</section>
+
+		<section>
+		
+		<!-- Intro Jumbotron End -->
+		<div class="jumbotron" id="content">
+			<h1 class="page-header">Pig Dice!</h1>
+			<div class="row">
+			<!-- Player 1 Start -->
+			<div class="col-xs-4" id="dicebox-marg">
+			<h1><strong><span id="p1-name"></span></strong></h1>
+			<h3>Total Score: <span id="p1-score"></span></h3>
+			<h3>Turn Score: <span id="p1-turnscore"></span></h3>
+			<button type="button" class="btn btn-success" id="p1-roll">Roll Dice</button>
+			<button type="button" class="btn btn-danger" id="p1-hold">Hold</button>
+			</div>
+			<!-- Player 1 End -->
+			<div class="col-xs-3 col-xs-offset-2">
+			<h3 id="turn-message"></h3>
+			<div id="die-box" class="dice"></div>
+			</div>
+
+			<!-- Player 2 Start -->
+			<div class="col-xs-3">
+			<h1><strong><span id="p2-name"></span></strong></h1>
+			<h3>Total Score: <span id="p2-score"></span></h3>
+			<h3>Turn Score: <span id="p2-turnscore"></span></h3>
+			<button type="button" class="btn btn-success" id="p2-roll">Roll Dice</button>
+			<button type="button" class="btn btn-danger" id="p2-hold">Hold</button>
+			</div>
+			<!-- Player 2 End -->
+			</div>
+			<button type="button" class="btn btn-info" id="restart-btn">Restart</button>
+			<button type="button" class="btn btn-primary" id="reset-gamepage">Reset the Game!</button>
+
+		</div>
+	
+				
 		</section>
 
 		
